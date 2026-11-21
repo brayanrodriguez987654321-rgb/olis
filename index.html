@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#142139">
+  <meta name="description" content="MSc. William Paguay C. Firma Jurídica">
+  <title>MSc. William Paguay C. | Firma Jurídica</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- BARRA SUPERIOR -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <span>ASESORÍA Y PATROCINIO JURÍDICO</span>
+      <span>ATENCIÓN PROFESIONAL Y CONFIDENCIAL</span>
+    </div>
+  </div>
+
+  <!-- ENCABEZADO -->
+  <header class="header">
+    <div class="container header-content">
+
+      <a href="#inicio" class="brand">
+        <!-- EDITA AQUÍ LA RUTA DEL LOGOTIPO -->
+        <img src="Logo Negro.png" alt="Logotipo de la firma" class="logo">
+
+        <div class="brand-text">
+          <h2>MSc. William <span>Paguay C.</span></h2>
+          <p>DEFENDEMOS TUS DERECHOS</p>
+        </div>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-expanded="false">
+        MENÚ
+      </button>
+
+      <nav class="navigation" id="navigation">
+        <a href="#inicio">Inicio</a>
+        <a href="#firma">La firma</a>
+        <a href="#areas">Áreas legales</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a href="#agendar" class="button button-gold header-button">
+        Agendar consulta
+      </a>
+    </div>
+  </header>
+
+  <main id="app">
+
+    <!-- PANTALLA 1: BIENVENIDA -->
+    <section class="screen welcome-screen" id="bienvenida">
+      <div class="container welcome-content">
+        <span class="eyebrow">FIRMA JURÍDICA</span>
+        <h1>Bienvenido a <span>nuestra firma</span></h1>
+        <p>Asesoría y patrocinio jurídico con responsabilidad, profesionalismo y compromiso.</p>
+        <a href="#inicio" class="button button-gold">Comenzar</a>
+      </div>
+    </section>
+
+    <!-- PANTALLA 2: INICIO -->
+    <section class="screen hero" id="inicio">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="eyebrow">MSC. WILLIAM PAGUAY C.</span>
+          <h1>Justicia, compromiso y <span>defensa de tus derechos.</span></h1>
+          <p>Brindamos asesoría y patrocinio jurídico con atención profesional, confidencial y personalizada.</p>
+          <div class="hero-buttons">
+            <a href="#servicios" class="button button-gold">Conoce nuestros servicios</a>
+            <a href="#contacto" class="button button-outline">Contáctanos</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <!-- EDITA AQUÍ LA RUTA DE LA IMAGEN PRINCIPAL -->
+          <img src="imagen_2026-11-14_214439536.png" alt="Imagen principal de la firma">
+        </div>
+      </div>
+
+      <div class="container quick-access">
+        <a href="#areas">Áreas legales</a>
+        <a href="#agendar">Agendar consulta</a>
+        <a href="#login">Portal de clientes</a>
+      </div>
+    </section>
+
+    <!-- PANTALLA 3: LA FIRMA -->
+    <section class="screen section" id="firma">
+      <div class="container">
+        <div class="section-title">
+          <span>QUIÉNES SOMOS</span>
+          <h2>Una firma comprometida con la justicia</h2>
+        </div>
+
+        <div class="two-columns">
+          <div class="image-placeholder">
+            <!-- EDITA AQUÍ LA RUTA DE LA IMAGEN INSTITUCIONAL -->
+            <img src="Logo Negro.png" alt="Imagen de la firma jurídica">
+          </div>
+          <div>
+            <h3>MSc. William Paguay C.</h3>
+            <p>Somos una firma jurídica orientada a brindar asesoramiento, representación y patrocinio legal.</p>
+            <p>Nuestro compromiso es acompañar a cada cliente en la defensa de sus derechos e intereses, mediante soluciones jurídicas profesionales.</p>
+            <a href="#contacto" class="button button-gold">Solicitar asesoría</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PANTALLA 4: ÁREAS LEGALES -->
+    <section class="screen section light-section" id="areas">
+      <div class="container">
+        <div class="section-title">
+          <span>ESPECIALIDADES</span>
+          <h2>Nuestras áreas legales</h2>
+          <p>Conoce las diferentes ramas jurídicas en las que brindamos atención.</p>
+        </div>
+
+        <div class="areas-grid">
+
+          <a href="#detalle-area" class="area-card" data-area="Área legal 1">
+            <img src="Iconos para apgina web PNG-01.png" alt="Icono del área 1">
+            <h3>Área legal 1</h3>
+            <p>Conoce nuestra especialidad.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Área legal 2">
+            <img src="Iconos para apgina web PNG-02.png" alt="Icono del área 2">
+            <h3>Área legal 2</h3>
+            <p>Conoce nuestra especialidad.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Área legal 3">
+            <img src="Iconos para apgina web PNG-03.png" alt="Icono del área 3">
+            <h3>Área legal 3</h3>
+            <p>Conoce nuestra especialidad.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Área legal 4">
+            <img src="Iconos para apgina web PNG-04.png" alt="Icono del área 4">
+            <h3>Área legal 4</h3>
+            <p>Conoce nuestra especialidad.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Área legal 5">
+            <img src="Iconos para apgina web PNG-05.png" alt="Icono del área 5">
+            <h3>Área legal 5</h3>
+            <p>Conoce nuestra especialidad.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Área legal 6">
+            <img src="Iconos para apgina web PNG-06.png" alt="Icono del área 6">
+            <h3>Área legal 6</h3>
+            <p>Conoce nuestra especialidad.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Área legal 7">
+            <img src="Iconos para apgina web PNG-07.png" alt="Icono del área 7">
+            <h3>Área legal 7</h3>
+            <p>Conoce nuestra especialidad.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Área legal 8">
+            <img src="Iconos para apgina web PNG-08.png" alt="Icono del área 8">
+            <h3>Área legal 8</h3>
+            <p>Conoce nuestra especialidad.</p>
+          </a>
+
+          <a href="#detalle-area" class="area-card" data-area="Área legal 9">
+            <img src="Iconos para apgina web PNG-09.png" alt="Icono del área 9">
+            <h3>Área legal 9</h3>
+            <p>Conoce nuestra especialidad.</p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PANTALLA 5: DETALLE DE ÁREA -->
+    <section class="screen section" id="detalle-area">
+      <div class="container narrow">
+        <span class="eyebrow">ESPECIALIDAD JURÍDICA</span>
+        <h1 id="areaTitle">Detalle del área legal</h1>
+        <p id="areaDescription">Aquí podrás agregar la descripción de cada especialidad, sus alcances y el tipo de asesoría que ofrece la firma.</p>
+        <div class="detail-panel">
+          <h3>¿En qué podemos ayudarte?</h3>
+          <p>Recibe orientación profesional para analizar tu situación y conocer las alternativas jurídicas disponibles.</p>
+          <a href="#agendar" class="button button-gold">Solicitar asesoría</a>
+        </div>
+        <a href="#areas" class="back-link">← Volver a las áreas legales</a>
+      </div>
+    </section>
+
+    <!-- PANTALLA 6: SERVICIOS -->
+    <section class="screen section light-section" id="servicios">
+      <div class="container">
+        <div class="section-title">
+          <span>NUESTRO TRABAJO</span>
+          <h2>Servicios jurídicos</h2>
+          <p>Atención orientada a tus necesidades legales.</p>
+        </div>
+
+        <div class="service-grid">
+          <a href="#detalle-servicio" class="service-card" data-service="Asesoría jurídica">
+            <h3>Asesoría jurídica</h3>
+            <p>Orientación profesional para comprender tus derechos y obligaciones.</p>
+            <span>Conocer servicio →</span>
+          </a>
+
+          <a href="#detalle-servicio" class="service-card" data-service="Patrocinio legal">
+            <h3>Patrocinio legal</h3>
+            <p>Representación y defensa de tus intereses en procedimientos legales.</p>
+            <span>Conocer servicio →</span>
+          </a>
+
+          <a href="#detalle-servicio" class="service-card" data-service="Consultas jurídicas">
+            <h3>Consultas jurídicas</h3>
+            <p>Atención personalizada para analizar situaciones y alternativas legales.</p>
+            <span>Conocer servicio →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PANTALLA 7: DETALLE DE SERVICIO -->
+    <section class="screen section" id="detalle-servicio">
+      <div class="container narrow">
+        <span class="eyebrow">SERVICIOS PROFESIONALES</span>
+        <h1 id="serviceTitle">Detalle del servicio</h1>
+        <p id="serviceDescription">Conoce las características y el alcance de nuestros servicios jurídicos.</p>
+        <div class="detail-panel">
+          <h3>Atención personalizada</h3>
+          <p>Podrás solicitar una consulta para analizar tu caso y recibir orientación.</p>
+          <a href="#agendar" class="button button-gold">Agendar consulta</a>
+        </div>
+        <a href="#servicios" class="back-link">← Volver a servicios</a>
+      </div>
+    </section>
+
+    <!-- PANTALLA 8: BÚSQUEDA -->
+    <section class="screen section light-section" id="busqueda">
+      <div class="container">
+        <div class="section-title">
+          <span>ENCUENTRA INFORMACIÓN</span>
+          <h2>Buscar servicios y especialidades</h2>
+        </div>
+
+        <div class="search-panel">
+          <label for="searchInput">¿Qué estás buscando?</label>
+          <input type="search" id="searchInput" placeholder="Escribe un área o servicio...">
+          <button class="button button-gold" id="searchButton" type="button">Buscar</button>
+        </div>
+
+        <div class="filter-row">
+          <label for="categoryFilter">Filtrar por categoría</label>
+          <select id="categoryFilter">
+            <option value="all">Todas las categorías</option>
+            <option value="area">Áreas legales</option>
+            <option value="service">Servicios</option>
+          </select>
+        </div>
+
+        <div id="searchResults" class="search-results">
+          <p>Escribe una palabra para buscar información.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PANTALLA 9: AGENDAR -->
+    <section class="screen section" id="agendar">
+      <div class="container narrow">
+        <div class="section-title">
+          <span>AGENDA TU CONSULTA</span>
+          <h2>Solicitud de atención</h2>
+          <p>Completa los siguientes datos para solicitar una consulta.</p>
+        </div>
+
+        <form id="appointmentForm" class="form-panel">
+          <label for="appointmentName">Nombre completo</label>
+          <input id="appointmentName" name="name" required placeholder="Tu nombre">
+
+          <label for="appointmentPhone">Teléfono</label>
+          <input id="appointmentPhone" name="phone" type="tel" required placeholder="Tu número de contacto">
+
+          <label for="appointmentEmail">Correo electrónico</label>
+          <input id="appointmentEmail" name="email" type="email" placeholder="Tu correo">
+
+          <label for="appointmentArea">Área de consulta</label>
+          <select id="appointmentArea" name="area" required>
+            <option value="">Selecciona un área</option>
+            <option>Área legal 1</option>
+            <option>Área legal 2</option>
+            <option>Área legal 3</option>
+            <option>Área legal 4</option>
+            <option>Área legal 5</option>
+            <option>Área legal 6</option>
+            <option>Área legal 7</option>
+            <option>Área legal 8</option>
+            <option>Área legal 9</option>
+            <option>Consulta general</option>
+          </select>
+
+          <label for="appointmentDate">Fecha preferida</label>
+          <input id="appointmentDate" name="date" type="date" required>
+
+          <label for="appointmentMessage">Describe brevemente tu consulta</label>
+          <textarea id="appointmentMessage" name="message" rows="4" placeholder="Escribe aquí..."></textarea>
+
+          <label class="check-label">
+            <input type="checkbox" required>
+            Acepto que mis datos sean utilizados para gestionar esta solicitud.
+          </label>
+
+          <button type="submit" class="button button-gold">Enviar solicitud</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- PANTALLA 10: CONFIRMACIÓN -->
+    <section class="screen section" id="confirmacion">
+      <div class="container narrow confirmation-panel">
+        <span class="eyebrow">SOLICITUD REGISTRADA</span>
+        <h1>¡Gracias por contactarnos!</h1>
+        <p id="confirmationMessage">Tu solicitud ha sido registrada en esta demostración. La firma podrá revisar tus datos cuando exista un sistema de gestión conectado.</p>
+        <a href="#inicio" class="button button-gold">Volver al inicio</a>
+        <a href="#contacto" class="back-link">Ver información de contacto</a>
+      </div>
+    </section>
+
+    <!-- PANTALLA MULTIMEDIA -->
+    <section class="screen section light-section" id="multimedia">
+      <div class="container">
+        <div class="section-title">
+          <span>CONOCE NUESTRA FIRMA</span>
+          <h2>Multimedia institucional</h2>
+          <p>Descubre nuestro video publicitario y escucha nuestra cuña comercial.</p>
+        </div>
+        <div class="media-grid">
+          <article class="media-card">
+            <h3>Video publicitario</h3>
+            <p>Conoce nuestra firma y el compromiso con la defensa de tus derechos.</p>
+            <video id="institutionalVideo" controls playsinline preload="metadata" aria-label="Video publicitario de la firma jurídica">
+              <source src="assets/video-publicitario.mp4" type="video/mp4">
+              Tu navegador no admite videos HTML5.
+            </video>
+          </article>
+          <article class="media-card">
+            <h3>Cuña comercial</h3>
+            <p>Escucha nuestro mensaje institucional.</p>
+            <div class="audio-panel">
+              <span class="audio-symbol" aria-hidden="true">♫</span>
+              <audio id="commercialAudio" controls preload="metadata" aria-label="Cuña comercial de la firma jurídica">
+                <source src="assets/cuna-comercial.mpeg" type="audio/mpeg">
+                Tu navegador no admite audio HTML5.
+              </audio>
+            </div>
+          </article>
+        </div>
+        <div class="media-cta"><a href="#agendar" class="button button-gold">Agendar consulta</a></div>
+      </div>
+    </section>
+
+    <!-- PANTALLA 11: CONTACTO -->
+    <section class="screen section light-section" id="contacto">
+      <div class="container">
+        <div class="section-title">
+          <span>ESTAMOS PARA AYUDARTE</span>
+          <h2>Contacto y ubicación</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>MSc. William Paguay C.</h3>
+            <p>Comunícate con nuestra firma para solicitar información y atención jurídica.</p>
+
+            <div class="contact-item">
+              <strong>Teléfono</strong>
+              <a href="tel:+593980359510">+593 98 035 9510</a>
+            </div>
+
+            <div class="contact-item">
+              <strong>Dirección</strong>
+              <p>Complejo Judicial de Tulcán, calle Sucre y Ayacucho, Ecuador.</p>
+            </div>
+
+            <a href="https://wa.me/593980359510" target="_blank" rel="noopener noreferrer" class="button button-gold">Contactar por WhatsApp</a>
+          </div>
+
+          <div class="contact-card">
+            <h3>Ubicación de atención</h3>
+            <p>Complejo Judicial de Tulcán</p>
+            <p>Calle Sucre y Ayacucho, Tulcán, Ecuador.</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Complejo+Judicial+de+Tulcan+Ecuador" target="_blank" rel="noopener noreferrer" class="text-link">Consultar ubicación en Google Maps →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PANTALLA 12: LOGIN -->
+    <section class="screen section" id="login">
+      <div class="container narrow">
+        <div class="section-title">
+          <span>PORTAL DE CLIENTES</span>
+          <h2>Iniciar sesión</h2>
+          <p>Accede a tu espacio personal.</p>
+        </div>
+
+        <form id="loginForm" class="form-panel">
+          <label for="loginEmail">Correo electrónico</label>
+          <input id="loginEmail" type="email" required placeholder="correo@ejemplo.com">
+
+          <label for="loginPassword">Contraseña</label>
+          <input id="loginPassword" type="password" required placeholder="Tu contraseña">
+
+          <button type="submit" class="button button-gold">Ingresar</button>
+
+          <a href="#recuperar" class="text-link">¿Olvidaste tu contraseña?</a>
+          <p class="form-note">¿Todavía no tienes cuenta? <a href="#registro">Regístrate aquí</a>.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- PANTALLA 13: REGISTRO -->
+    <section class="screen section" id="registro">
+      <div class="container narrow">
+        <div class="section-title">
+          <span>PORTAL DE CLIENTES</span>
+          <h2>Crear una cuenta</h2>
+          <p>Registra tus datos para acceder al portal de clientes.</p>
+        </div>
+
+        <form id="registerForm" class="form-panel">
+          <label for="registerName">Nombre completo</label>
+          <input id="registerName" required placeholder="Tu nombre">
+
+          <label for="registerEmail">Correo electrónico</label>
+          <input id="registerEmail" type="email" required placeholder="Tu correo">
+
+          <label for="registerPhone">Teléfono</label>
+          <input id="registerPhone" type="tel" required placeholder="Tu teléfono">
+
+          <label for="registerPassword">Crear contraseña</label>
+          <input id="registerPassword" type="password" minlength="6" required placeholder="Mínimo 6 caracteres">
+
+          <label class="check-label">
+            <input type="checkbox" required>
+            Acepto el tratamiento de mis datos para esta demostración.
+          </label>
+
+          <button type="submit" class="button button-gold">Crear cuenta</button>
+          <p class="form-note">¿Ya tienes cuenta? <a href="#login">Inicia sesión</a>.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- PANTALLA 14: RECUPERAR CONTRASEÑA -->
+    <section class="screen section" id="recuperar">
+      <div class="container narrow">
+        <div class="section-title">
+          <span>RECUPERACIÓN DE ACCESO</span>
+          <h2>¿Olvidaste tu contraseña?</h2>
+          <p>Ingresa tu correo electrónico para continuar con la recuperación.</p>
+        </div>
+
+        <form id="recoveryForm" class="form-panel">
+          <label for="recoveryEmail">Correo electrónico</label>
+          <input id="recoveryEmail" type="email" required placeholder="correo@ejemplo.com">
+          <button type="submit" class="button button-gold">Solicitar recuperación</button>
+          <a href="#login" class="back-link">← Volver a iniciar sesión</a>
+        </form>
+      </div>
+    </section>
+
+    <!-- PANTALLA 15: PORTAL -->
+    <section class="screen section light-section" id="portal">
+      <div class="container">
+        <div class="portal-heading">
+          <div>
+            <span class="eyebrow">ESPACIO PERSONAL</span>
+            <h1>Portal de clientes</h1>
+            <p>Bienvenido a tu espacio de información y seguimiento.</p>
+          </div>
+          <a href="#inicio" class="button button-outline-dark">Salir</a>
+        </div>
+
+        <div class="portal-grid">
+          <a href="#perfil" class="portal-card">
+            <h3>Mi perfil</h3>
+            <p>Consulta tus datos personales.</p>
+          </a>
+
+          <a href="#editar-perfil" class="portal-card">
+            <h3>Editar perfil</h3>
+            <p>Actualiza tu información de contacto.</p>
+          </a>
+
+          <a href="#notificaciones" class="portal-card">
+            <h3>Notificaciones</h3>
+            <p>Consulta tus avisos y novedades.</p>
+          </a>
+
+          <a href="#configuracion" class="portal-card">
+            <h3>Configuración</h3>
+            <p>Administra las preferencias de tu cuenta.</p>
+          </a>
+        </div>
+
+        <p class="demo-notice">Portal demostrativo. La información no se almacena en un servidor.</p>
+      </div>
+    </section>
+
+    <!-- PANTALLAS ADICIONALES DEL PORTAL -->
+    <section class="screen section" id="perfil">
+      <div class="container narrow">
+        <span class="eyebrow">PORTAL DE CLIENTES</span>
+        <h1>Mi perfil</h1>
+        <div class="detail-panel">
+          <p><strong>Nombre:</strong> <span id="profileName">Cliente de demostración</span></p>
+          <p><strong>Correo:</strong> <span id="profileEmail">No registrado</span></p>
+          <p><strong>Teléfono:</strong> <span id="profilePhone">No registrado</span></p>
+          <a href="#editar-perfil" class="button button-gold">Editar mis datos</a>
+        </div>
+        <a href="#portal" class="back-link">← Volver al portal</a>
+      </div>
+    </section>
+
+    <section class="screen section" id="editar-perfil">
+      <div class="container narrow">
+        <div class="section-title">
+          <span>PORTAL DE CLIENTES</span>
+          <h2>Editar perfil</h2>
+        </div>
+        <form id="profileForm" class="form-panel">
+          <label for="editName">Nombre completo</label>
+          <input id="editName" required>
+          <label for="editEmail">Correo electrónico</label>
+          <input id="editEmail" type="email" required>
+          <label for="editPhone">Teléfono</label>
+          <input id="editPhone" type="tel">
+          <button type="submit" class="button button-gold">Guardar cambios</button>
+        </form>
+        <a href="#perfil" class="back-link">← Volver al perfil</a>
+      </div>
+    </section>
+
+    <section class="screen section" id="notificaciones">
+      <div class="container narrow">
+        <span class="eyebrow">PORTAL DE CLIENTES</span>
+        <h1>Notificaciones</h1>
+        <div class="detail-panel">
+          <h3>Centro de notificaciones</h3>
+          <p>No tienes notificaciones nuevas en esta demostración.</p>
+        </div>
+        <a href="#portal" class="back-link">← Volver al portal</a>
+      </div>
+    </section>
+
+    <section class="screen section" id="configuracion">
+      <div class="container narrow">
+        <span class="eyebrow">PORTAL DE CLIENTES</span>
+        <h1>Configuración</h1>
+        <div class="detail-panel">
+          <h3>Preferencias de cuenta</h3>
+          <label class="check-label">
+            <input type="checkbox" id="noticePreference" checked>
+            Recibir avisos de demostración.
+          </label>
+          <p>Las preferencias se muestran como parte del prototipo.</p>
+        </div>
+        <a href="#portal" class="back-link">← Volver al portal</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <!-- EDITA AQUÍ LA RUTA DEL LOGOTIPO DEL PIE -->
+        <img src="imagen_2026-11-14_214439536.png" alt="Logotipo de la firma">
+        <div>
+          <h3>MSc. William Paguay C.</h3>
+          <p>Defendemos tus derechos</p>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#areas">Áreas legales</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#login">Portal de clientes</a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      © <span id="year"></span> MSc. William Paguay C. · Todos los derechos reservados.
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

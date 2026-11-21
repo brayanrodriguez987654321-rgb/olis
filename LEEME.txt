@@ -1,0 +1,5 @@
+Abre index.html con Live Server o un servidor local.
+Se agregó la sección Multimedia al menú principal y al pie de página.
+Los medios están en assets/ y se reproducen mediante controles HTML5.
+IMPORTANTE: Copia tus imágenes y logotipos originales junto a index.html, conservando sus nombres actuales.
+La página mantiene el funcionamiento demostrativo original; no guarda cuentas ni solicitudes reales.
